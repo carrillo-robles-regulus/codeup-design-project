@@ -1,0 +1,39 @@
+body{
+    font-family: 'Abel', sans-serif;
+    background: #f0f0f0;
+}
+
+:root {
+    --red: #e6563b;
+    --lime: #7cb06c;
+    --gold: #EB9D3A;
+    --teal: #00aba9;
+}
+.red{background-color: var(--red);}
+.lime{background-color: var(--lime);}
+.gold{background-color: var(--gold);}
+.teal{background-color: var(--teal);}
+
+.sub-title{
+    text-align: center;
+    margin-top: 5em;
+}
+.images {
+    max-width: 100%;
+    border: .5em solid #e6e6e6;
+    border-radius: 4px;
+    background-size: cover;
+}
+.small-circles{
+    height: 18px;
+    width: 18px;
+    border-radius: 18px;
+    font-size: 8px;
+    line-height: 18px;
+    font-family:'Anton', sans-serif;
+    margin-left: 1em;
+}
+.small-circles span{
+    position: relative;
+    top: 1px
+}
