@@ -37,3 +37,10 @@ body{
     position: relative;
     top: 1px
 }
+.small-images{
+    height: 50px;
+    width: 50px;
+    border: .2em solid #e6e6e6;
+    border-radius: 1px;
+    background-size: cover;
+}
