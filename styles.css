@@ -2,7 +2,37 @@ body{
     font-family: 'Abel', sans-serif;
     background: #f0f0f0;
 }
+header{
+    font-family: anton;
+}
 
+.circle {
+    width: 105px;
+    height: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid white;
+    border-radius: 50px;
+    color: white;
+    text-align: center;
+    margin: 1vw;
+}
+#designCircle {
+    background-color: #e6563b
+}
+
+#developCircle {
+    background-color: #dea03d;
+}
+
+#supportCircle {
+    background-color: #7cb06c;
+}
+
+#hostCircle {
+    background-color: #00aba9;
+}
 :root {
     --red: #e6563b;
     --lime: #7cb06c;
