@@ -5,6 +5,17 @@ body{
 header{
     font-family: anton, sans-serif;
 }
+header h1{
+    font-size: 64px;
+}
+header h2{
+    font-size: 48px;
+}
+
+.media-body h5{
+    font-family: anton, sans-serif;
+    font-size: 32px;
+}
 .nav-background{
     position: absolute;
     margin: 0;
@@ -74,6 +85,10 @@ nav .nav-item{
     /*text-align: center;*/
     margin-top: 5em;
 }
+.image-ipad{background-image: url(assets/images/apple-ipad.jpg)}
+.image-man{background-image: url(assets/images/man.jpg)}
+.image-macbook{background-image: url(assets/images/macbook.jpg)}
+.image-security{background-image: url(assets/images/security.jpg)}
 .images {
     max-width: 99%;
     border: .5em solid #e6e6e6;
