@@ -71,11 +71,11 @@ nav .nav-item{
 .teal{background-color: var(--teal);}
 
 .sub-title{
-    text-align: center;
+    /*text-align: center;*/
     margin-top: 5em;
 }
 .images {
-    max-width: 100%;
+    max-width: 99%;
     border: .5em solid #e6e6e6;
     border-radius: 4px;
     background-size: cover;
